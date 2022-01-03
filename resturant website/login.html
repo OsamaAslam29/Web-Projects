@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            /* background: url('/pexels-pixabay-415969.jpg') no-repeat center center fixed; */
+            background: url('/burger-king-restaurant-exterior.jpg.jpg') no-repeat center center fixed;
+            /* background-size: cover; */
+            height: 100vh;
+            width: 100vh;
+            background-size: 100% 100%;
+
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 70%;
+            /* border: 2PX solid purple; */
+            width: 300px;
+        }
+
+        .container h1 {
+            color: rgb(186, 190, 150);
+            border-bottom: 2px solid white;
+            margin-left: 30%;
+            display: inline
+        }
+         h2{
+            position: absolute;
+            top: 30px;
+            left: 20px;
+            font-weight: bold;
+            font-size: 40px;
+            /* font-style: italic; */
+            border-bottom: 4px solid white;
+            color: rgb(128, 22, 22);
+        }
+
+        .box input {
+            /* background: none; */
+            border: 2px solid black;
+            /* margin: 5px 4px 4px 4px; */
+            padding: 6px;
+            padding-right: 90px;
+            /* margin-top: px; */
+            font-weight: bold;
+
+            border-radius: 05px;
+        }
+
+        .box label {
+            color: rgb(182, 14, 8);
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .box {
+            margin-top: 20px;
+        }
+
+        .btn button {
+
+            width: 80px;
+            height: 30px;
+            position: absolute;
+            top: 220px;
+            left: 100px;
+            border-radius: 30px;
+            border: 2px solid black;
+        }
+        .btn button:hover {
+            color: white;
+
+           background-color: rgb(49, 49, 179);
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Log In Page Of Burger King </h2>
+    <div class="container">
+        <h1>Log In</h1>
+        <div class="box">
+            <label for="email">Email Address</label><br>
+            <input type="email" name="myemail" id="email" placeholder="Enter  Your Email">
+        </div>
+        <div class="box">
+            <label for="password">password</label><br>
+            <input type="password" name="mypassword" id="password" placeholder="Enter  Your Password">
+        </div>
+        <div class="btn">
+            <button>Log In</button>
+        </div>
+    </div>
+</body>
+
+</html>
